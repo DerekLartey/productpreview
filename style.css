@@ -106,4 +106,10 @@ p {
     text-decoration: none;
   }
 
+  .link {
+    position: absolute;
+    top: 43rem;
+    left: 33rem;
+  }
+
 
