@@ -1,0 +1,114 @@
+body {
+    background-color: hsl(30, 38%, 92%);
+}
+
+main {
+    background-color: white;
+    height: 30rem;
+    width: 40rem;
+    margin: auto;
+    margin-top: 10rem;
+    border-radius: 1rem;
+}
+
+img {
+    height: 30rem;
+    width: 20rem;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+div {
+    text-align: right;
+    padding-bottom: 100rem;
+
+}
+
+h1 {
+    font-family: 'Fraunces', serif;
+    position: absolute;
+    top: 13rem;
+    left: 47rem;
+    width: 12rem;
+    font-size: 1.9rem;
+    line-height: 1;
+    font-weight: 700;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+p {
+    position: absolute;
+    top: 11rem;
+    left: 47rem;
+    font-family: 'Montserrat', sans-serif;
+    color: hsl(228, 12%, 48%);
+}
+
+.floral {
+    position: absolute;
+    top: 22rem;
+    left: 47rem;
+    width: 15rem;
+    line-height: 1.4;
+    padding-top: 0;
+    margin-top: 0;
+    padding-bottom: 1rem;
+}
+
+.cost {
+    font-family: 'Fraunces', serif;
+    position: absolute;
+    top: 27rem;
+    font-size: 2rem;
+    color: hsl(158, 36%, 37%);
+}
+
+.costs {
+    font-family: 'montserrat', sans-serif;
+    font-style: normal;
+    position: absolute;
+    top: 29.1rem;
+    left: 56rem;
+    font-size: .8rem;
+    color: hsl(228, 12%, 48%);
+    text-decoration: line-through;
+}
+
+.btn {
+    background: hsl(158, 36%, 37%);
+    background-image: -webkit-linear-gradient(top, hsl(158, 36%, 37%), #2980b9hsl(158, 36%, 37%));
+    background-image: -moz-linear-gradient(top, hsl(158, 36%, 37%), #2980b9hsl(158, 36%, 37%));
+    background-image: -ms-linear-gradient(top, hsl(158, 36%, 37%), #2980b9hsl(158, 36%, 37%));
+    background-image: -o-linear-gradient(top, hsl(158, 36%, 37%), #2980b9hsl(158, 36%, 37%));
+    background-image: linear-gradient(to bottom, hsl(158, 36%, 37%), #2980b9hsl(158, 36%, 37%));
+    -webkit-border-radius: 11;
+    -moz-border-radius: 11;
+    border-radius: 8px;
+    font-family: 'montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 15px;
+    padding: 13px 80px 13px 80px;
+    border: solid #1f628d 0px;
+    text-decoration: none;
+    position: absolute;
+    top: 34rem;
+    left: 48rem;
+  }
+  
+  .btn:hover {
+    background: hsl(30, 38%, 92%);
+    background-image: -webkit-linear-gradient(top, hsl(30, 38%, 92%), hsl(30, 38%, 92%));
+    background-image: -moz-linear-gradient(top, hsl(30, 38%, 92%), hsl(30, 38%, 92%));
+    background-image: -ms-linear-gradient(top, hsl(30, 38%, 92%), hsl(30, 38%, 92%));
+    background-image: -o-linear-gradient(top, hsl(30, 38%, 92%), hsl(30, 38%, 92%));
+    background-image: linear-gradient(to bottom, hsl(30, 38%, 92%), hsl(30, 38%, 92%));
+    text-decoration: none;
+  }
+
+  .fas {
+    color: red;
+  }
+
+
+
