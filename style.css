@@ -2,78 +2,86 @@ body {
     background-color: hsl(30, 38%, 92%);
 }
 
-main {
-    background-color: white;
-    height: 30rem;
-    width: 40rem;
-    margin: auto;
-    margin-top: 10rem;
-    border-radius: 1rem;
-}
-
 img {
-    height: 30rem;
-    width: 20rem;
-    border-top-left-radius: 1rem;
-    border-bottom-left-radius: 1rem;
+    width: 50%;
 }
 
-div {
-    text-align: right;
-    padding-bottom: 100rem;
-
+.btn {
+    width: 30%;
+    margin-left: 30px;
+    margin-top: 0px;
 }
 
-h1 {
-    font-family: 'Fraunces', serif;
-    position: absolute;
-    top: 13rem;
-    left: 47rem;
-    width: 12rem;
-    font-size: 1.9rem;
-    line-height: 1;
-    font-weight: 700;
-    padding-bottom: 0;
-    margin-bottom: 0;
+.outer-container {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    max-width: 640px;
+    margin: 100px auto 0 auto;
+    border-radius: 10px;
+    overflow: hidden;
 }
 
-p {
-    position: absolute;
-    top: 11rem;
-    left: 47rem;
+.inner-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.link {
+    text-align: center;
+}
+
+.perfume {
     font-family: 'Montserrat', sans-serif;
     color: hsl(228, 12%, 48%);
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.price {
+    margin-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    font-family: 'Fraunces', serif;
+    color: hsl(158, 36%, 37%);
+    font-size: 2rem;
+}
+
+.gab {
+    margin-left: 30px;
+    margin-top: 0px;
+    font-family: 'Fraunces', serif;
+    padding-right: 70px;
 }
 
 .floral {
-    position: absolute;
-    top: 22rem;
-    left: 47rem;
-    width: 15rem;
-    line-height: 1.4;
-    padding-top: 0;
-    margin-top: 0;
-    padding-bottom: 1rem;
+    margin-left: 30px;
+    font-family: 'Montserrat', sans-serif;
+    color: hsl(228, 12%, 48%);
+    line-height: 1.5;
+    padding-right: 50px;
 }
 
-.cost {
-    font-family: 'Fraunces', serif;
-    position: absolute;
-    top: 27rem;
-    font-size: 2rem;
-    color: hsl(158, 36%, 37%);
-}
+.discount {
+    margin-left: 20px;
+    margin-top: 20px;
+    text-decoration: line-through;
+    font-family: 'Montserrat', sans-serif;
+    color: hsl(228, 12%, 48%);
+} 
 
 .costs {
-    font-family: 'montserrat', sans-serif;
-    font-style: normal;
-    position: absolute;
-    top: 29.1rem;
-    left: 56rem;
-    font-size: .8rem;
-    color: hsl(228, 12%, 48%);
-    text-decoration: line-through;
+    display: flex;
+    flex-direction: row;
 }
+
+.carticon {
+    height: 15px;
+    width: 15px;
+    margin-right: 10px;
+}
+
+
 
 .btn {
     background: hsl(158, 36%, 37%);
@@ -87,29 +95,38 @@ p {
     border-radius: 8px;
     font-family: 'montserrat', sans-serif;
     color: #ffffff;
-    font-size: 15px;
+    font-size: 14px;
     padding: 13px 80px 13px 80px;
     border: solid #1f628d 0px;
     text-decoration: none;
-    position: absolute;
     top: 34rem;
     left: 48rem;
   }
   
   .btn:hover {
-    background: hsl(30, 38%, 92%);
-    background-image: -webkit-linear-gradient(top, hsl(30, 38%, 92%), hsl(30, 38%, 92%));
-    background-image: -moz-linear-gradient(top, hsl(30, 38%, 92%), hsl(30, 38%, 92%));
-    background-image: -ms-linear-gradient(top, hsl(30, 38%, 92%), hsl(30, 38%, 92%));
-    background-image: -o-linear-gradient(top, hsl(30, 38%, 92%), hsl(30, 38%, 92%));
-    background-image: linear-gradient(to bottom, hsl(30, 38%, 92%), hsl(30, 38%, 92%));
-    text-decoration: none;
-  }
-
-  .link {
-    position: absolute;
-    top: 43rem;
-    left: 33rem;
+    background-color: black;
   }
 
 
+/*****Phone*****/
+
+  @media (max-width: 655px) {
+    .outer-container {
+        flex-direction: column;
+    }
+
+    img {
+        width: 100%;
+        max-height: 40rem;
+    }
+
+    .btn {
+        text-align: center;
+        width: 40%;
+        margin: 0 auto 40px auto;
+    }
+
+    .carticon {
+        align-items: center;
+    }
+    }
